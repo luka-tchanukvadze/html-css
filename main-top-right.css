@@ -1,0 +1,151 @@
+.main-top-right {
+    display: flex;
+    width: 300px;
+    position: absolute;
+    top:0px;
+    left: 750px;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.when-changed {
+
+    border-left: 1px solid rgb(48, 54, 61);
+
+}
+
+
+.for-shadow {
+    
+    margin-left: 30px;
+}
+.yesterday {
+    font-weight: normal;
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.what-changed {
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: text-decoration, color 0.15s;
+}
+
+.what-changed:hover {
+    text-decoration: underline;
+    color: rgb(88, 166, 255);
+}
+
+.view {
+    font-weight: normal;
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.view:hover {
+    color: rgb(88, 166, 255);
+   
+}
+
+
+
+.explore {
+    margin-bottom: 40px;
+}
+
+.explore-container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(48, 54, 61);
+}
+
+.top-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+}
+
+.left {
+    align-items: center;
+    vertical-align: middle;
+}
+.explore-photo {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.star-button {
+    margin-right: 10px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(33, 38, 45);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(48, 54, 61);
+}
+
+.explore-text {
+    font-size: 16px;
+}
+
+.bottom-explore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.stars-b {
+    margin-right: 30px;
+    
+}
+
+.star-entity-b {
+    margin-left: 0;
+}
+.language-color-html {
+    margin-right: 5px;
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    
+}
+
+.language-color-css {
+    margin-right: 5px;
+    background-color: purple;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    
+}
+
+.explore-more {
+    color: rgb(88, 166, 255);
+    cursor: pointer;
+    transition: text-decoration 0.15s;
+}
+
+.explore-more:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

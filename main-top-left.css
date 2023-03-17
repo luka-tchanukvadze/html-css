@@ -1,0 +1,300 @@
+.others {
+    position: absolute;
+    left: 420px;
+    top: 95px;
+    width: 684px;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(48, 54, 61);
+}
+
+.left-side {
+    flex-direction: row;
+}
+
+
+
+
+.following {
+    padding-left: 8px;
+    padding-right: 22px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.following:hover {
+    opacity: 0.6;
+}
+
+.for-you {
+    color: rgb(201, 209, 217);
+    padding-right: 5px;
+    cursor: pointer;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: orange ;
+    transition: opacity 0.15s;
+    
+ }
+
+ .for-you:hover {
+    opacity: 0.6;
+ }
+.beta {
+    color: green;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 1px 5px 2px 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.feedback {
+    color: rgb(88, 166, 255);
+    font-size: 17px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.feedback:hover {
+    text-decoration: underline;
+}
+.filter {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+.trending {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-of-dots {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+}
+
+
+.diagram-photo {
+    width: 40px;
+    border-radius: 19px;
+    margin-right: 10px;
+    
+}
+
+
+.text-dot {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.show-more {
+    color: rgb(88, 166, 255);
+    cursor: pointer;
+}
+
+
+
+.three-dots {
+    color: rgb(144, 161, 178);
+    font-size: 30px;
+}
+
+
+
+.recomended-repos {
+    width: 684px;
+    border: 1px solid rgb(48, 54, 61);
+    border-radius: 7px;
+    background-color: rgb(13, 17, 23);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recomended-top {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 28px;
+    height: 10px;
+    
+}
+
+.author-picture {
+    width: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.repo-title {
+    cursor: pointer;
+}
+.repo-title:hover {
+    color: rgb(88, 166, 255);
+}
+
+
+.recomended-middle {
+    margin-left: 20px;
+}
+
+.recomended-text {
+    font-size: 17px;
+}
+
+.recomended-bottom {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.language-color {
+    margin-right: 5px;
+    background-color: rgb(53, 114, 165);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    
+}
+.language-color-C {
+    margin-right: 5px;
+    background-color: rgb(85, 85, 85);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    
+}
+
+.language {
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+
+.stars {
+    font-size: 17px;
+    
+}
+.star-entity {
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+
+
+.recomended {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side-of-recomended  {
+    padding: 1px 15px 6px 15px;
+    margin-left: 190px;
+    border: 1px solid rgb(48, 54, 61);
+    border-radius: 10px;
+    background-color: rgb(33, 38, 45);
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.right-side-of-recomended:hover {
+    opacity: 0.5;
+}
+
+
+.bottom-texts {
+    display: flex;
+    margin-top: 60px;
+}
+.cat-logo {
+    display: flex;
+    width: 300px;
+    vertical-align: middle;
+    
+}
+
+.cat {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+.some-text {
+    font-size: 15px;
+    
+}
+
+.cat-right {
+    display: flex;
+    flex: 1;
+}
+
+
+.some-links {
+    font-size: 15px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.some-links:hover {
+    text-decoration: underline;
+    color: rgb(88, 166, 255);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    height: 15px;
+
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.third {
+    display: flex;
+    flex-direction: column;
+}
+
+.desh {
+    margin-left: 5px;
+    margin-right: 5px;
+}
