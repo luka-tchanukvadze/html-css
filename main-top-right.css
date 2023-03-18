@@ -10,23 +10,69 @@
 
 
 .when-changed {
-
+    margin-top: -10px;
     border-left: 1px solid rgb(48, 54, 61);
 
 }
 
 
 .for-shadow {
-    
+    margin-top: -10px;
     margin-left: 30px;
 }
 .yesterday {
     font-weight: normal;
     color: gray;
     font-size: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
+    
+   
+    height: 5px;
+    position: relative;
 }
+.left-dot-a {
+    position: absolute;
+    top: 65px;
+    left: -4px;
+    width: 10px; 
+    height: 10px;
+    background-color: rgb(48, 54, 61);
+    border-radius: 10px;
+    
+}
+
+.left-dot-b {
+    position: absolute;
+    top: 155px;
+    left: -4px;
+    width: 10px; 
+    height: 10px;
+    background-color: rgb(48, 54, 61);
+    border-radius: 10px;
+    
+}
+
+.left-dot-c {
+    position: absolute;
+    top: 245px;
+    left: -4px;
+    width: 10px; 
+    height: 10px;
+    background-color: rgb(48, 54, 61);
+    border-radius: 10px;
+    
+}
+
+.left-dot-d {
+    position: absolute;
+    top: 335px;
+    left: -4px;
+    width: 10px; 
+    height: 10px;
+    background-color: rgb(48, 54, 61);
+    border-radius: 10px;
+    
+}
+
 .what-changed {
     margin-top: 5px;
     font-size: 17px;
@@ -86,6 +132,10 @@
     border-radius: 10px;
 }
 
+.explore-title:hover {
+    text-decoration: underline;
+}
+
 .star-button {
     margin-right: 10px;
     padding: 0px 15px 0px 15px;
@@ -94,6 +144,11 @@
     font-size: 25px;
     border-radius: 10px;
     border: 2px solid rgb(48, 54, 61);
+    transition: opacity 0.15s;
+}
+
+.star-button:hover {
+    opacity: 0.8;
 }
 
 .explore-text {
